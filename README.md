@@ -2,6 +2,10 @@
 
 This project was generated with create-react-app.
 
+### Notes
+
+The current app is still under construction. There must be some bug fixes and improvements and the Redux state must be improved.
+
 ### Getting Started
 
 This is a sample react app
