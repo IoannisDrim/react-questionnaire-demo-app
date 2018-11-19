@@ -1,0 +1,33 @@
+.quesstions-adder {
+  width: 100%;
+  border-bottom: 0.1rem solid #ccc;
+  padding: 1rem 1rem;
+  background-color: #dce6ef;
+}
+
+.quesstions-adder h3 {
+	display: inline-block;
+	float: left;
+	margin: 0;
+	font-size: 2rem;
+	color: #101010;
+}
+
+.quesstions-adder button {
+	display: inline-block;
+	float: right;
+	padding: 0.6rem 1.2rem;
+	font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .quesstions-adder h3 {
+  	width: 100%;
+  	text-align: center;
+  }
+
+  .quesstions-adder button {
+  	width: 100%;
+  	margin-top: 2rem;
+  }
+}

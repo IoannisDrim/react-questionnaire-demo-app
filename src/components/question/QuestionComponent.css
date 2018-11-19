@@ -1,0 +1,144 @@
+.question {
+	margin-top: 2rem;
+}
+
+fieldset {
+  display: block;
+  border: 1px groove #a6a6a6;
+ 	background-color: #fff;
+}
+
+legend {
+	width: auto;
+	font-weight: bold;
+    color: #101010;
+    margin-left: 1rem;
+}
+
+.question-controlls {
+	top: -0.5rem;
+	position: relative;
+	text-align: right;
+}
+
+.question-controlls button {
+	border: none;
+	font-size: 1.7rem;
+	margin-left: 0.5rem;
+}
+
+.question-controlls button:hover {
+	border-radius: 0;
+}
+
+.question-settings {
+	margin: 0 1.5rem 0 1.5rem;
+	border-bottom: 0.1rem solid #ccc;
+}
+
+.question-settings .row {
+	margin: 1rem 0 0.5rem 0;
+}
+
+.question-prompt-input {
+	padding: 1.2rem;
+	line-height: 1.2rem;
+	font-size: 1.5rem;
+	border-color: #999999;
+	border-radius: 0;
+	color: #2e4a62;
+}
+
+.question-settings-limit label{
+	float: left;
+	margin: 0;
+}
+
+.question-settings-limit input[type="number"]{
+	width: 5rem;
+}
+
+.limit-selector {
+	padding-right: 0;
+	margin-bottom: 1rem;
+}
+
+.limit-selector div{
+	top: 0.5rem;
+  position: relative;
+}
+
+.limitter-section {
+	border-left: 0.1rem solid;
+	display: flex;
+}
+
+.inpt-number-groub {
+	margin-right: 1rem;
+}
+
+.inpt-number-groub.input-group{
+	width: auto !important;
+}
+
+.inpt-number-groub .form-control{
+	border-radius: 0;
+	flex: none;
+	padding-right: 0;
+}
+
+.inpt-number-groub .input-group-text{
+	background-color: transparent;
+	border: none;
+}
+
+.question-answers {
+	margin: 1.5rem;
+}
+
+p.no-answers-disaply-msg {
+	margin: 0;
+}
+
+.no-answers-disaply-msg {
+	font-size: 1.1rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.question-footer {
+	margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.question-footer button {
+	float: left;
+	padding: 0.5rem;
+	font-size: 1.2rem;
+	background-color: #343a40;
+	color: #fff;
+}
+
+.question-footer button:hover:not(:disabled) {
+	background-color: #505962;
+}
+
+.limit-answer-error {
+	text-align: left;
+	padding-left: 1.2rem;
+}
+
+
+.show-all-answers input[data-isvisible="true"] {
+	background-color: #d4edda;
+}
+
+.show-all-answers input[data-isvisible="false"] {
+	background-color: #f8d7da;
+}
+
+@media only screen and (max-width: 768px) {
+  .limitter-section {
+  	margin: 1rem 0.5rem;
+		border-left: none;
+	}
+}

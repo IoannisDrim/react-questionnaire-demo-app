@@ -1,0 +1,11 @@
+.no-questions-disaply-msg {
+  margin: 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.quesstions-container {
+	padding: 3rem;
+	background-color: #f4f4f4;
+}

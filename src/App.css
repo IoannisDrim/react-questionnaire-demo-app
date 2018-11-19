@@ -1,0 +1,17 @@
+header h1 {
+	font-size: 3rem;
+	margin-top: 2rem;
+	font-weight: bold;
+	color: #f4f4f4;
+	text-align: center;
+}
+
+header h1 img{
+	width: 5rem;
+}
+
+.questions-dashboard {
+	margin:  5rem auto;
+	background-color: #fff;
+	box-shadow: 0 0.4rem 0.8rem 0 rgba(245, 188, 189, 0.2), 0 0.6rem 2rem 0 rgba(245, 188, 189, 0.2);
+}
