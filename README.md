@@ -6,6 +6,12 @@ This project was generated with create-react-app.
 
 The current app is still under construction. There must be some bug fixes and improvements and the Redux state must be improved.
 
+### Improvments TODO
+* Stop mutating state in reducer and generally improve store
+* Change the use of componentWillReceiveProps which is antipattern
+* Fix typos
+* Improve code constistancy
+
 ### Getting Started
 
 This is a sample react app
